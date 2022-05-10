@@ -16,13 +16,21 @@ h1{
     font-size: 75px;
     margin-bottom:0;
 }
-p{
+h2{
     font-family: 'SangSangShinb7';
     color: #D86A66;
     font-size: 50px;
     padding: 0px;
     margin: 0px;
 }
+/* p{
+    font-family: 'SangSangShinb7';
+    color: #D86A66;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+
+} */
 section{
     margin: 1%;
 }
@@ -56,8 +64,9 @@ section{
     color:white;
 }
 #girl{
-    background-image: url('img/girl.PNG');
+    width: 7%;
 }
 #boy{
-    background-image: url('img/boy.PNG');
+    width: 7%;
+
 }
