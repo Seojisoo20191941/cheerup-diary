@@ -25,3 +25,27 @@ p{
 .title{
     text-align: center;
 }
+.buttons{
+    padding: 1%;
+    text-align: center;
+}
+.button{
+    font-family: 'SangSangShinb7';
+    border-radius: 50px;
+    width: 25%;
+    height: 50px;
+    margin:0.3%;
+    font-size: 30px;
+}
+.white{
+    background-color: white;
+    border: 1px solid #D86A66;
+    color: #D86A66;
+    text-align: center;
+}
+.pink{
+    background-color: #D86A66;
+    border: 1px solid #D86A66;
+    color:white;
+    text-align: center;
+}
