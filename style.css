@@ -1,3 +1,96 @@
+@font-face {
+    font-family: 'SangSangShinb7';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.1/SangSangShinb7.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
     background-color: antiquewhite;
+    text-align: center;
+}
+h1{
+    font-family: 'SangSangShinb7';
+    color: #D86A66;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+    font-size: 75px;
+    margin-bottom:0;
+}
+h2{
+    font-family: 'SangSangShinb7';
+    color: #D86A66;
+    font-size: 50px;
+    padding: 0px;
+    margin: 0px;
+}
+/* p{
+    font-family: 'SangSangShinb7';
+    color: #D86A66;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+
+} */
+section{
+    margin: 1%;
+}
+.date{
+    padding: 1%;
+    font-family: 'SangSangShinb7';
+    font-size: 30px;
+    width: 25%;
+    height: 30px;
+    text-align: center;
+    background-color: transparent;
+    border:transparent
+}
+.button{
+    font-family: 'SangSangShinb7';
+    border-radius: 50px;
+    width: 25%;
+    height: 50px;
+    margin:0.3%;
+    font-size: 30px;
+}
+.white{
+    background-color: white;
+    border: 1px solid #D86A66;
+    color: #D86A66;
+    text-align: center;
+}
+.pink{
+    background-color: #D86A66;
+    border: 1px solid #D86A66;
+    color:white;
+}
+#girl{
+    width: 7%;
+}
+#boy{
+    width: 7%;
+}
+#sunny{
+    background-image: url('img/sunny-uncheck.png');
+    width:7%;
+}
+#sunny:hover{
+    background-image: url('img/sunny-check.png');
+}
+#cloudy{
+    background-image: url('img/cloud-uncheck.png');
+}
+#cloudy:hover{
+    background-image: url('img/cloud-check.png');
+}
+#rain{
+    background-image: url('img/rain-uncheck.png');
+}
+#rain:hover{
+    background-image: url('img/rain-check.png');
+}
+#snow{
+    background-image: url('img/snow-uncheck.png');
+}
+#snow:hover{
+    background-image: url('img/snow-scheck.png');
 }
