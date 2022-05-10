@@ -6,6 +6,11 @@
 }
 
 body{
-    font-family: 'SangSangShinb7';
     background-color: antiquewhite;
+}
+h1{
+    font-family: 'SangSangShinb7';
+}
+p{
+    font-family: 'SangSangShinb7';
 }
