@@ -2,5 +2,5 @@
 꼬마가 전하는, 오늘 하루 당신을 위한 응원일기
 
 👇 like this
-![image](https://user-images.githubusercontent.com/76681519/167705956-1c9df323-0393-41e2-aa12-a617d119e299.png)
+![image](https://user-images.githubusercontent.com/76681519/167706191-c0d569e1-9faf-49f8-8df5-df9917b6a9eb.png)
 
