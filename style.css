@@ -7,6 +7,7 @@
 
 body{
     background-color: antiquewhite;
+    text-align: center;
 }
 h1{
     font-family: 'SangSangShinb7';
@@ -22,12 +23,21 @@ p{
     padding: 0px;
     margin: 0px;
 }
-.title{
+.dates{
+    margin: 1%;
+}
+.date{
+    padding: 1%;
+    font-family: 'SangSangShinb7';
+    font-size: 30px;
+    width: 25%;
+    height: 30px;
     text-align: center;
+    background-color: transparent;
+    border:transparent
 }
 .buttons{
-    padding: 1%;
-    text-align: center;
+    margin: 1%;
 }
 .button{
     font-family: 'SangSangShinb7';
@@ -47,5 +57,4 @@ p{
     background-color: #D86A66;
     border: 1px solid #D86A66;
     color:white;
-    text-align: center;
 }
