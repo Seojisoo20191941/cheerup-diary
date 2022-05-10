@@ -68,5 +68,29 @@ section{
 }
 #boy{
     width: 7%;
-
+}
+#sunny{
+    background-image: url('img/sunny-uncheck.png');
+    width:7%;
+}
+#sunny:hover{
+    background-image: url('img/sunny-check.png');
+}
+#cloudy{
+    background-image: url('img/cloud-uncheck.png');
+}
+#cloudy:hover{
+    background-image: url('img/cloud-check.png');
+}
+#rain{
+    background-image: url('img/rain-uncheck.png');
+}
+#rain:hover{
+    background-image: url('img/rain-check.png');
+}
+#snow{
+    background-image: url('img/snow-uncheck.png');
+}
+#snow:hover{
+    background-image: url('img/snow-scheck.png');
 }
