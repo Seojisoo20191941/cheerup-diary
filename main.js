@@ -8,8 +8,6 @@ let snow=0;
 function girlCheck(){
     document.getElementById('girl').style.width="16vh";
     girl=1;
-    remove(girlOut);
-
 }
 function boyCheck(){
     boy=1;
