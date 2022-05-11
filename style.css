@@ -23,33 +23,32 @@ h2{
     padding: 0px;
     margin: 0px;
 }
-/* p{
-    font-family: 'SangSangShinb7';
-    color: #D86A66;
-    font-size: 20px;
-    padding: 0px;
-    margin: 0px;
-
-} */
-section{
-    margin: 1%;
-}
-.date{
-    padding: 1%;
+p{
     font-family: 'SangSangShinb7';
     font-size: 30px;
-    width: 25%;
+    margin:0px;
+}
+
+section{
+    margin: 2vh;
+}
+.date{
+    /* padding: 2vh; */
+    font-family: 'SangSangShinb7';
+    font-size: 30px;
+    width: 50vh;
     height: 30px;
     text-align: center;
     background-color: transparent;
-    border:transparent
+    border:transparent;
+    cursor:pointer;
 }
 .button{
     font-family: 'SangSangShinb7';
     border-radius: 50px;
-    width: 25%;
+    width: 50vh;
     height: 50px;
-    margin:0.3%;
+    margin:0.6vh;
     font-size: 30px;
 }
 .white{
@@ -63,34 +62,33 @@ section{
     border: 1px solid #D86A66;
     color:white;
 }
-#girl{
-    width: 7%;
+.sex{
+    width: 14vh;
 }
-#boy{
-    width: 7%;
+.weather{
+    width: 14vh;
 }
-#sunny{
-    background-image: url('img/sunny-uncheck.png');
-    width:7%;
+.startpage{
+    display: block;
 }
-#sunny:hover{
-    background-image: url('img/sunny-check.png');
+.resultpage{
+    display:none;
+    margin-top: 75px;
 }
-#cloudy{
-    background-image: url('img/cloud-uncheck.png');
+.resultimage{
+    background-image: url("img/rain_girl.png");
+    width: 250vh;
 }
-#cloudy:hover{
-    background-image: url('img/cloud-check.png');
+hr{
+    width: 50vh;
+    border-width: 1px 0px 0px 0px;
+    height: 1px;
 }
-#rain{
-    background-image: url('img/rain-uncheck.png');
+.img-box{
+    display: flex;
+    height: 16vh;
+    justify-content: center;
 }
-#rain:hover{
-    background-image: url('img/rain-check.png');
-}
-#snow{
-    background-image: url('img/snow-uncheck.png');
-}
-#snow:hover{
-    background-image: url('img/snow-scheck.png');
+.img{
+    width:16vh;
 }

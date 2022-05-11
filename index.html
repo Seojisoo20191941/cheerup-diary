@@ -9,33 +9,56 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <section>
-        <h1>오늘,<br>
-        가장 행복한 날</h1>
-        <h2>힘든 하루 속 당신을 위한 응원 일기</h2>
-    </section>
-    <section>
-        <input type="date" class="date" id="date">
-    </section>
-    <section>
-        <!-- <p>성별 선택</p> -->
-        <input type="image" class="sex" id="girl" src="img/girl.PNG" onclick="girlCheck()">
-        <input type="image" class="sex" id="boy" src="img/boy.PNG" onclick="boyCheck()">
-    </section>
-    <section>
-        <!-- <input type="image" class="wheater" id="sunny" src="img/sunny-uncheck.png" onclick="sunnyCheck()">
-        <input type="image" class="wheater" id="cloudy" src="img/cloud-uncheck.png" onclick="cloudyCheck()">
-        <input type="image" class="wheater" id="rain" src="img/rain-uncheck.png" onclick="rainCheck()">
-        <input type="image" class="wheater" id="snow" src="img/snow-uncheck.png" onclick="snowCheck()"> -->
+    <div class="startpage">
+        <div>
+            <h1>오늘,<br>
+            가장 행복한 날</h1>
+            <h2>힘든 하루 속 당신을 위한 응원 일기!</h2>
+        </div>
+        <div style="margin-top:5vh;">
+            <hr>
+            <input type="date" class="date" id="date">
+            <hr>
+        </div>
+        <div class="img-box">
+            <div class="img">
+                <input type="image" class="sex" id="girl" src="img/girl.PNG" onclick="girlCheck()" onmouseover="girlOver()" onmouseout="girlOut()">
+            </div><div class="img">
+                <input type="image" class="sex" id="boy" src="img/boy.PNG" onclick="boyCheck()" onmouseover="boyOver()" onmouseout="boyOut()">
+            </div>
+        </div>
+        <div>
+            <input type="image" class="weather" id="sunny" src="img/sunny-uncheck.png" onclick="sunnyCheck()" onmouseover="sunnyOver()" onmouseout="sunnyOut()">
+            <input type="image" class="weather" id="cloudy" src="img/cloud-uncheck.png" onclick="cloudyCheck()" onmouseover="cloudyOver()"  onmouseout="cloudyOut()">
+            <input type="image" class="weather" id="rain" src="img/rain-uncheck.png" onclick="rainCheck()" onmouseover="rainOver()"  onmouseout="rainOut()">
+            <input type="image" class="weather" id="snow" src="img/snow-uncheck.png" onclick="snowCheck()" onmouseover="snowOver()"  onmouseout="snowOut()">
 
-    </section>
-    <section class="buttons">
-        <form>
-            <input type="text" placeholder="이름을 입력하세요" class="button white" id="name" />
-            <br>
-            <a><input type="button" value="응원하기" class="button pink" onclick="printName()"/></a>
-        </form>
-    </section>
+        </div>
+        <div class="buttons">
+            <form>
+                <input type="text" placeOlder="이름을 입력하세요" class="button white" id="name" />
+                <br>
+                <a><input type="button" value="응원하기" class="button pink" onclick="printName()"/></a>
+            </form>
+        </div>
+    </div>
+    <div class="resultpage">
+        <div>
+            <hr>
+            date
+            <hr>
+        </div>
+        <input type="image" class="resultimage" id="resultimage" src="img/rain_girl.png">
+        <div>
+            <p id="resultname">지수</p>
+            <p>좋은 하루가 될 거야</p>
+        </div>
+        <div class="buttons">
+            <form>
+                <a><input type="button" value="다시응원하기" class="button pink" onclick="replay()"/></a>
+            </form>
+        </div>
+    </div>
 
 </body>
 </html>
