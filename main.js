@@ -74,11 +74,16 @@ function snowOut(){
 
 function printName()  {
     let date = document.getElementById('date').value;
-    let name = document.getElementById('name').value;
-    console.log(name);
+    let myname = document.getElementById('name').value;
+    console.log(myname);
     console.log(date);    
     document.querySelector(".startpage").style.display="none";
     document.querySelector(".resultpage").style.display="block";
+    document.querySelector("#resultdate").innerHTML=date;
+    document.querySelector("#resultname").innerHTML=myname +"!";
+
+    
+
 }
 function replay(){
     location.reload();
