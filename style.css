@@ -23,14 +23,7 @@ h2{
     padding: 0px;
     margin: 0px;
 }
-/* p{
-    font-family: 'SangSangShinb7';
-    color: #D86A66;
-    font-size: 20px;
-    padding: 0px;
-    margin: 0px;
 
-} */
 section{
     margin: 1%;
 }
@@ -63,34 +56,15 @@ section{
     border: 1px solid #D86A66;
     color:white;
 }
-#girl{
+.sex{
     width: 7%;
 }
-#boy{
+.weather{
     width: 7%;
 }
-#sunny{
-    background-image: url('img/sunny-uncheck.png');
-    width:7%;
+.startpage{
+    display: block;
 }
-#sunny:hover{
-    background-image: url('img/sunny-check.png');
-}
-#cloudy{
-    background-image: url('img/cloud-uncheck.png');
-}
-#cloudy:hover{
-    background-image: url('img/cloud-check.png');
-}
-#rain{
-    background-image: url('img/rain-uncheck.png');
-}
-#rain:hover{
-    background-image: url('img/rain-check.png');
-}
-#snow{
-    background-image: url('img/snow-uncheck.png');
-}
-#snow:hover{
-    background-image: url('img/snow-scheck.png');
+.resultpage{
+    display:none;
 }

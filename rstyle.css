@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'SangSangShinb7';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.1/SangSangShinb7.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: antiquewhite;
+    text-align: center;
+    margin-top: 5%;
+}
+.button{
+    font-family: 'SangSangShinb7';
+    border-radius: 50px;
+    width: 25%;
+    height: 50px;
+    margin:0.3%;
+    font-size: 30px;
+}
+
+.pink{
+    background-color: #D86A66;
+    border: 1px solid #D86A66;
+    color:white;
+}
+img{
+    width:35%;
+}
+hr{
+    width: 25%;
+}
