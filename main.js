@@ -29,5 +29,5 @@ function printName()  {
     console.log(name);
     console.log(date);
     console.log(girl);
-
+    
   }
