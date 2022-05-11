@@ -15,13 +15,17 @@
             가장 행복한 날</h1>
             <h2>힘든 하루 속 당신을 위한 응원 일기!</h2>
         </div>
-        <div>
+        <div style="margin-top:5vh;">
+            <hr>
             <input type="date" class="date" id="date">
+            <hr>
         </div>
-        <div>
-            <!-- <p>성별 선택</p> -->
-            <input type="image" class="sex" id="girl" src="img/girl.PNG" onclick="girlCheck()">
-            <input type="image" class="sex" id="boy" src="img/boy.PNG" onclick="boyCheck()">
+        <div class="img-box">
+            <div class="img">
+                <input type="image" class="sex" id="girl" src="img/girl.PNG" onclick="girlCheck()" onmouseover="girlOver()" onmouseout="girlOut()">
+            </div><div class="img">
+                <input type="image" class="sex" id="boy" src="img/boy.PNG" onclick="boyCheck()" onmouseover="boyOver()" onmouseout="boyOut()">
+            </div>
         </div>
         <div>
             <input type="image" class="weather" id="sunny" src="img/sunny-uncheck.png" onclick="sunnyCheck()" onmouseover="sunnyOver()" onmouseout="sunnyOut()">
@@ -44,9 +48,10 @@
             date
             <hr>
         </div>
-        <img src="img/sunny_girl.png"/>
+        <input type="image" class="resultimage" id="resultimage" src="img/rain_girl.png">
         <div>
-            name
+            <p id="resultname">지수</p>
+            <p>좋은 하루가 될 거야</p>
         </div>
         <div class="buttons">
             <form>

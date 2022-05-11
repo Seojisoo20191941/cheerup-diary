@@ -23,26 +23,32 @@ h2{
     padding: 0px;
     margin: 0px;
 }
-
-section{
-    margin: 1%;
-}
-.date{
-    padding: 1%;
+p{
     font-family: 'SangSangShinb7';
     font-size: 30px;
-    width: 25%;
+    margin:0px;
+}
+
+section{
+    margin: 2vh;
+}
+.date{
+    /* padding: 2vh; */
+    font-family: 'SangSangShinb7';
+    font-size: 30px;
+    width: 50vh;
     height: 30px;
     text-align: center;
     background-color: transparent;
-    border:transparent
+    border:transparent;
+    cursor:pointer;
 }
 .button{
     font-family: 'SangSangShinb7';
     border-radius: 50px;
-    width: 25%;
+    width: 50vh;
     height: 50px;
-    margin:0.3%;
+    margin:0.6vh;
     font-size: 30px;
 }
 .white{
@@ -57,14 +63,32 @@ section{
     color:white;
 }
 .sex{
-    width: 7%;
+    width: 14vh;
 }
 .weather{
-    width: 7%;
+    width: 14vh;
 }
 .startpage{
     display: block;
 }
 .resultpage{
     display:none;
+    margin-top: 75px;
+}
+.resultimage{
+    background-image: url("img/rain_girl.png");
+    width: 250vh;
+}
+hr{
+    width: 50vh;
+    border-width: 1px 0px 0px 0px;
+    height: 1px;
+}
+.img-box{
+    display: flex;
+    height: 16vh;
+    justify-content: center;
+}
+.img{
+    width:16vh;
 }
