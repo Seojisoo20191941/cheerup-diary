@@ -81,8 +81,22 @@ function printName()  {
     document.querySelector(".resultpage").style.display="block";
     document.querySelector("#resultdate").innerHTML=date;
     document.querySelector("#resultname").innerHTML=myname +"!";
+    // girl
+    if (girl>0){
 
-    
+    }
+    // sunny
+    // cloudy
+    // rain
+    // snow
+    if (boy>0){
+        
+    }
+    // boy
+    // sunny
+    // cloudy
+    // rain
+    // snow
 
 }
 function replay(){
