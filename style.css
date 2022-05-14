@@ -23,11 +23,6 @@ h2{
     padding: 0px;
     margin: 0px;
 }
-p{
-    font-family: 'SangSangShinb7';
-    font-size: 30px;
-    margin:0px;
-}
 
 section{
     margin: 2vh;
@@ -68,10 +63,6 @@ section{
 .resultpage{
     display:none;
     margin-top: 75px;
-}
-.resultimage{
-    background-image: url("img/rain_girl.png");
-    width: 250vh;
 }
 hr{
     width: 50vh;
@@ -131,6 +122,20 @@ label{
 
 .resultimage{
     width:50vh;
+}
+#resultdate{
+    font-family: 'SangSangShinb7';
+    margin: 0px;
+    font-size: 30px;
+}
+#resultname{
+    font-family: 'SangSangShinb7';
+    color: #D86A66;
+    font-size: 50px;
+}
+#comment{
+    font-family: 'SangSangShinb7';
+    font-size: 40px;
 }
 [type=checkbox] { 
     position: absolute;
