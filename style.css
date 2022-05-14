@@ -84,10 +84,14 @@ hr{
     justify-content: center;
 }
 */
+label{
+    width: 15vh;
+    height: 15vh;
+}
 .gender-img{
     display: flex;
     justify-content: center;
-    height: 16vh;
+    height: 15vh;
 }
 .girl-img{
     content:url(img/girl.PNG);
@@ -102,7 +106,7 @@ hr{
 .weather-img{
     display: flex;
     justify-content: center;
-    height: 16vh;
+    height: 15vh;
 }
 .sunny-img{
     content: url(img/sunny-check.png);
@@ -114,15 +118,15 @@ hr{
 }
 .cloudy-img{
     content: url(img/cloudy-check.png);
-    width: 14vh;
+    width: 13vh;
 }
 .rain-img{
     content: url(img/rain-check.png);
-    width: 14vh;
+    width: 13vh;
 }
 .snow-img{
     content: url(img/snow-check.png);
-    width: 14vh;
+    width: 13vh;
 }
 
 .resultimage{
@@ -138,6 +142,6 @@ hr{
     cursor: pointer;
 }
 [type=checkbox]:checked + div {
-    width:16vh;
+    width:15vh;
     height:auto;
 }

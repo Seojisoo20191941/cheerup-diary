@@ -1,9 +1,9 @@
-let girl=0;
-let boy=0;
-let sunny=0;
-let cloudy=0;
-let rain=0;
-let snow=0;
+// let girl=0;
+// let boy=0;
+// let sunny=0;
+// let cloudy=0;
+// let rain=0;
+// let snow=0;
 
 // console.log(document.querySelector("#girl"));
 // let girlCheck=document.querySelector("#girl").checked;
@@ -46,17 +46,27 @@ function printName()  {
     document.querySelector(".resultpage").style.display="block";
     document.querySelector("#resultdate").innerHTML=date;
     document.querySelector("#resultname").innerHTML=myname +"!";
-    // girl
-    if (girl>0){
 
-    }
+    let girlCheck=document.querySelector("#girl").checked;
+    let boyCheck=document.querySelector("#boy").checked;
+    let sunnyCheck=document.querySelector("#sunny").checked;
+    let cloudyCheck=document.querySelector("#cloudy").checked;
+    let rainCheck=document.querySelector("#rain").checked;
+    let snowCheck=document.querySelector("#snow").checked;
+
+    console.log(girlCheck);
+
+    // girl
+    // if (girl>0){
+
+    // }
     // sunny
     // cloudy
     // rain
     // snow
-    if (boy>0){
+    // if (boy>0){
 
-    }
+    // }
     // boy
     // sunny
     // cloudy
