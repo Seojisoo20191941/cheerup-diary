@@ -19,20 +19,17 @@
             <input type="date" class="date" id="date">
             <hr>
         </div>
-        <div class="img-box">
-            <div class="img">
-                <input type="image" class="sex" id="girl" src="img/girl.PNG" onclick="girlCheck()" onmouseover="girlOver()" onmouseout="girlOut()">
-            </div><div class="img">
-                <input type="image" class="sex" id="boy" src="img/boy.PNG" onclick="boyCheck()" onmouseover="boyOver()" onmouseout="boyOut()">
-            </div>
+        <div class="gender-img">
+            <label><input type="checkbox" class="gender" id="girl"><div class="girl-img"></div></input></label>
+            <label><input type="checkbox" class="gender" id="boy"><div class="boy-img"></div></input></label>
         </div>
-        <div>
-            <input type="image" class="weather" id="sunny" src="img/sunny-uncheck.png" onclick="sunnyCheck()" onmouseover="sunnyOver()" onmouseout="sunnyOut()">
-            <input type="image" class="weather" id="cloudy" src="img/cloud-uncheck.png" onclick="cloudyCheck()" onmouseover="cloudyOver()"  onmouseout="cloudyOut()">
-            <input type="image" class="weather" id="rain" src="img/rain-uncheck.png" onclick="rainCheck()" onmouseover="rainOver()"  onmouseout="rainOut()">
-            <input type="image" class="weather" id="snow" src="img/snow-uncheck.png" onclick="snowCheck()" onmouseover="snowOver()"  onmouseout="snowOut()">
+        <div class="weather-img">
+            <label><input type="checkbox" class="weather" id="sunny"><div class="sunny-img"></div></input></label>
+            <label><input type="checkbox" class="weather" id="cloudy"><div class="cloudy-img"></div></input></label>
+            <label><input type="checkbox" class="weather" id="rain"><div class="rain-img"></div></input></label>
+            <label><input type="checkbox" class="weather" id="snow"><div class="snow-img"></div></input></label>
+        </div>
 
-        </div>
         <div class="buttons">
             <form>
                 <input type="text" placeOlder="이름을 입력하세요" class="button white" id="name" />
@@ -41,16 +38,18 @@
             </form>
         </div>
     </div>
+
     <div class="resultpage">
         <div>
             <hr>
-            <p id="resultdate">2022-11-05</p> 
+            <div id="resultdate"></div> 
             <hr>
         </div>
-        <input type="image" class="resultimage" id="resultimage" src="img/rain_girl.png">
+        <input type="image" class="resultimage" id="resultimage" src="">
         <div>
-            <p id="resultname">지수</p>
-            <p id="comment">좋은 하루가 될 거야</p>
+            <div id="resultname"></div>
+            <div id="comment"></div>
+            <br>
         </div>
         <div class="buttons">
             <form>

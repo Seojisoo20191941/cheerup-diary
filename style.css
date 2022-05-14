@@ -23,11 +23,6 @@ h2{
     padding: 0px;
     margin: 0px;
 }
-p{
-    font-family: 'SangSangShinb7';
-    font-size: 30px;
-    margin:0px;
-}
 
 section{
     margin: 2vh;
@@ -62,12 +57,6 @@ section{
     border: 1px solid #D86A66;
     color:white;
 }
-.sex{
-    width: 14vh;
-}
-.weather{
-    width: 14vh;
-}
 .startpage{
     display: block;
 }
@@ -75,23 +64,89 @@ section{
     display:none;
     margin-top: 75px;
 }
-.resultimage{
-    background-image: url("img/rain_girl.png");
-    width: 250vh;
-}
 hr{
     width: 50vh;
     border-width: 1px 0px 0px 0px;
     height: 1px;
 }
-.img-box{
+/* .img-box{
     display: flex;
     height: 16vh;
     justify-content: center;
 }
-.img{
-    width:16vh;
+*/
+label{
+    width: 15vh;
+    height: 15vh;
 }
+.gender-img{
+    display: flex;
+    justify-content: center;
+    height: 15vh;
+}
+.girl-img{
+    content:url(img/girl.PNG);
+    /* height:100px; */
+    width: 14vh;
+} 
+.boy-img{
+    content:url(img/boy.PNG);
+    /* height:100px; */
+    width: 14vh;
+} 
+.weather-img{
+    display: flex;
+    justify-content: center;
+    height: 15vh;
+}
+.sunny-img{
+    content: url(img/sunny-check.png);
+    width: 14vh;
+    /* background-image: url(img/sunny-uncheck.png);
+    background-size: 14vh 16vh;
+    width: 14vh;
+    height: 16vh; */
+}
+.cloudy-img{
+    content: url(img/cloudy-check.png);
+    width: 13vh;
+}
+.rain-img{
+    content: url(img/rain-check.png);
+    width: 13vh;
+}
+.snow-img{
+    content: url(img/snow-check.png);
+    width: 13vh;
+}
+
 .resultimage{
     width:50vh;
+}
+#resultdate{
+    font-family: 'SangSangShinb7';
+    margin: 0px;
+    font-size: 30px;
+}
+#resultname{
+    font-family: 'SangSangShinb7';
+    color: #D86A66;
+    font-size: 50px;
+}
+#comment{
+    font-family: 'SangSangShinb7';
+    font-size: 40px;
+}
+[type=checkbox] { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+[type=checkbox] + div {
+    cursor: pointer;
+}
+[type=checkbox]:checked + div {
+    width:15vh;
+    height:auto;
 }
