@@ -62,12 +62,6 @@ section{
     border: 1px solid #D86A66;
     color:white;
 }
-.sex{
-    width: 14vh;
-}
-.weather{
-    width: 14vh;
-}
 .startpage{
     display: block;
 }
@@ -84,26 +78,66 @@ hr{
     border-width: 1px 0px 0px 0px;
     height: 1px;
 }
-.img-box{
+/* .img-box{
     display: flex;
     height: 16vh;
     justify-content: center;
 }
-.img{
-    width:16vh;
+*/
+.gender-img{
+    display: flex;
+    justify-content: center;
+    height: 16vh;
 }
+.girl-img{
+    content:url(img/girl.PNG);
+    /* height:100px; */
+    width: 14vh;
+} 
+.boy-img{
+    content:url(img/boy.PNG);
+    /* height:100px; */
+    width: 14vh;
+} 
+.weather-img{
+    display: flex;
+    justify-content: center;
+    height: 16vh;
+}
+.sunny-img{
+    content: url(img/sunny-uncheck.png);
+    width: 14vh;
+    /* background-image: url(img/sunny-uncheck.png);
+    background-size: 14vh 16vh;
+    width: 14vh;
+    height: 16vh; */
+}
+.cloudy-img{
+    content: url(img/cloudy-uncheck.png);
+    width: 14vh;
+}
+.rain-img{
+    content: url(img/rain-uncheck.png);
+    width: 14vh;
+}
+.snow-img{
+    content: url(img/snow-uncheck.png);
+    width: 14vh;
+}
+
 .resultimage{
     width:50vh;
 }
-[type=radio] { 
+[type=checkbox] { 
     position: absolute;
     opacity: 0;
     width: 0;
     height: 0;
-  }
-  [type=radio] + div {
+}
+[type=checkbox] + div {
     cursor: pointer;
-  }
-  /* [type=radio]:checked + div {
-    outline: 5px solid indigo;
-  } */
+}
+[type=checkbox]:checked + div {
+    width:16vh;
+    height:auto;
+}

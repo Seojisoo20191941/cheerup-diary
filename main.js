@@ -5,76 +5,39 @@ let cloudy=0;
 let rain=0;
 let snow=0;
 
-function girlCheck(){
-    document.getElementById('girl').style.width="16vh";
-    girl=1;
+let genderCheck = document.querySelectorAll(".gender");
+if (genderCheck[0].checked) {
+    girl = 1;
 }
-function boyCheck(){
-    boy=1;
-    document.getElementById('boy').style.width="16vh";
+else if (genderCheck[1].checked) {
+    boy = 1;
+}
 
+let weatherCheck = document.querySelectorAll(".weather");
+if (weatherCheck[0].checked) {
+    document.querySelector('.sunny-img').style.content = url("img/sunny-check.png");
+    sunny++;
+    console.log(sunny);
+    alert(sunny);
 }
-function sunnyCheck(){
-    sunny=1;
-    document.getElementById('sunny').src="img/sunny-check.png";
+else if (weatherCheck[1].checked) {
+    document.querySelector('.cloudy-img').style.content = url("img/cloudy-check.png");
+    cloudy = 1;
+}
+else if (weatherCheck[2].checked) {
+    document.querySelector('.rain-img').style.content = url("img/rain-check.png");
+    rain = 1;
+}
+else if (weatherCheck[3].checked) {
+    document.querySelector('.snow-img').style.content = url("img/snow-check.png");
+    snow = 1;
+}
+console.log(rain);
 
-}
-function cloudyCheck(){
-    cloudy=1;
-    document.getElementById('cloudy').src="img/cloud-check.png";
-
-}
-function rainCheck(){
-    rain=1;
-    document.getElementById('rain').src="img/rain-uncheck.png";
-
-}
-function snowCheck(){
-    snow=1;
-    document.getElementById('snow').src="img/snow-uncheck.png";
-
-}
-function girlOver(){
-    document.getElementById('girl').style.width="16vh";
-}
-function boyOver(){
-    document.getElementById('boy').style.width="16vh";
-}  
-function girlOut(){
-    document.getElementById('girl').style.width="14vh";
-}
-function boyOut(){
-    document.getElementById('boy').style.width="14vh";
-}    
-
-function sunnyOver(){
-    document.getElementById('sunny').src="img/sunny-check.png";
-}
-function cloudyOver(){
-    document.getElementById('cloudy').src="img/cloud-check.png";
-}
-function rainOver(){
-    document.getElementById('rain').src="img/rain-check.png";
-}
-function snowOver(){
-    document.getElementById('snow').src="img/snow-check.png";
-}
-function sunnyOut(){
-    document.getElementById('sunny').src="img/sunny-uncheck.png";
-}
-function cloudyOut(){
-    document.getElementById('cloudy').src="img/cloud-uncheck.png";
-}
-function rainOut(){
-    document.getElementById('rain').src="img/rain-uncheck.png";
-}
-function snowOut(){
-    document.getElementById('snow').src="img/snow-uncheck.png";
-}
 
 function printName()  {
-    let date = document.getElementById('date').value;
-    let myname = document.getElementById('name').value;
+    let date = document.querySelector('#date').value;
+    let myname = document.querySelector('#name').value;
     console.log(myname);
     console.log(date);    
     document.querySelector(".startpage").style.display="none";
@@ -90,7 +53,7 @@ function printName()  {
     // rain
     // snow
     if (boy>0){
-        
+
     }
     // boy
     // sunny
