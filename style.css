@@ -105,7 +105,7 @@ hr{
     height: 16vh;
 }
 .sunny-img{
-    content: url(img/sunny-uncheck.png);
+    content: url(img/sunny-check.png);
     width: 14vh;
     /* background-image: url(img/sunny-uncheck.png);
     background-size: 14vh 16vh;
@@ -113,15 +113,15 @@ hr{
     height: 16vh; */
 }
 .cloudy-img{
-    content: url(img/cloudy-uncheck.png);
+    content: url(img/cloudy-check.png);
     width: 14vh;
 }
 .rain-img{
-    content: url(img/rain-uncheck.png);
+    content: url(img/rain-check.png);
     width: 14vh;
 }
 .snow-img{
-    content: url(img/snow-uncheck.png);
+    content: url(img/snow-check.png);
     width: 14vh;
 }
 
