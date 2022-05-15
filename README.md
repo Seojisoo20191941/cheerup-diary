@@ -14,4 +14,5 @@
   - alert comments when value is null
   - alert comments when too much value
   - save image feature
+  - show weather beside date
   
