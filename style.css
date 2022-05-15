@@ -13,17 +13,20 @@ h1{
     font-family: 'SangSangShinb7';
     color: #D86A66;
     text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
-    font-size: 40px;
+    font-size: 50px;
     margin-bottom:0;
 }
 h2{
     font-family: 'SangSangShinb7';
     color: #D86A66;
-    font-size: 30px;
+    font-size: 40px;
     padding: 0px;
     margin: 0px;
 }
-
+p{
+    font-family: 'SangSangShinb7';
+    font-size: 30px;
+}
 section{
     margin: 2vh;
 }
@@ -59,7 +62,9 @@ section{
     text-align: center;
 }
 .startpage{
+    /* display:flex; justify-content: center; align-items: center; */
     display: block;
+
 }
 .resultpage{
     display:none;
