@@ -6,6 +6,12 @@
 
 - to do list
   - fix image size
-  - fix weather image color checked/unchecked
-  - draw images
-  - radom showing 
+  - ~~fix weather image color checked/unchecked~~
+  - result comments margin
+  - draw more images(4)
+  - image radom showing 
+  - fix comments
+  - alert comments when value is null
+  - alert comments when too much value
+  - save image feature
+  
