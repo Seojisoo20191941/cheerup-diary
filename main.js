@@ -1,23 +1,3 @@
-// let sunnyImg=document.querySelector(".sunny-img").style.content;
-
-function sunnyClick(){
-    // if (sunnyImg==="url(img/sunny-uncheck.png)"){
-    //     sunnyImg="url(img/sunny-check.png)";
-    // }
-    // else{
-    //     sunnyImg="url(img/sunny-uncheck.png)";
-    // }
-    document.querySelector(".sunny-img").style.content.classList.toggle("sunnyclicked");
-}
-function cloudyClick(){
-    document.querySelector(".cloudy-img").style.content="url(img/cloudy-check.png)";
-}
-function rainClick(){
-    document.querySelector(".rain-img").style.content="url(img/rain-check.png)";
-}
-function snowClick(){
-    document.querySelector(".snow-img").style.content="url(img/snow-check.png)";
-}
 
 function printName()  {
     let date = document.querySelector('#date').value;

@@ -154,3 +154,23 @@ label{
     width:15vh;
     height:auto;
 }
+[type=checkbox]:checked + .sunny-img{
+    width:15vh;
+    content: url(img/sunny-check.png);
+    height:auto;
+}
+[type=checkbox]:checked + .cloudy-img{
+    width:15vh;
+    content: url(img/cloudy-check.png);
+    height:auto;
+}
+[type=checkbox]:checked + .rain-img{
+    width:15vh;
+    content: url(img/rain-check.png);
+    height:auto;
+}
+[type=checkbox]:checked + .snow-img{
+    width:15vh;
+    content: url(img/snow-check.png);
+    height:auto;
+}
