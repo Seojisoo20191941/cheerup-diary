@@ -2,12 +2,12 @@
 function printName()  {
     let date = document.querySelector('#date').value;
     let myname = document.querySelector('#name').value;
-    // let resultimage = document.querySelector("#resultimage").src;
-    // let comment=document.querySelector("#comment").innerHTML;
+
     console.log(myname);
     console.log(date);    
     document.querySelector(".startpage").style.display="none";
     document.querySelector(".resultpage").style.display="block";
+
     document.querySelector("#resultdate").innerHTML=date;
     document.querySelector("#resultname").innerHTML=myname +"!";
 
