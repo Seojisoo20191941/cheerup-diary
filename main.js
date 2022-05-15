@@ -1,46 +1,13 @@
-// let girl=0;
-// let boy=0;
-// let sunny=0;
-// let cloudy=0;
-// let rain=0;
-// let snow=0;
+// let sunnyImg=document.querySelector(".sunny-img").style.content;
 
-// console.log(document.querySelector("#girl"));
-// let girlCheck=document.querySelector("#girl").checked;
-// console.log(girlCheck);
-// let genderCheck = document.getElementsByName("gender");
-// console.log(genderCheck[0].checked);
-// if (genderCheck[0].checked) {
-//     console.log("checked");
-// }
-// else if (genderCheck[1].checked) {
-//     boy = 1;
-// }
-// console.log(girl);
-// let weatherCheck = document.getElementsByName("weather");
-// if (weatherCheck[0].checked) {
-//     document.querySelector('.sunny-img').style.content = url("img/sunny-check.png");
-//     sunny++;
-// }
-// else if (weatherCheck[1].checked) {
-//     document.querySelector('.cloudy-img').style.content = url("img/cloudy-check.png");
-//     cloudy = 1;
-// }
-// else if (weatherCheck[2].checked) {
-//     document.querySelector('.rain-img').style.content = url("img/rain-check.png");
-//     rain = 1;
-// }
-// else if (weatherCheck[3].checked) {
-//     document.querySelector('.snow-img').style.content = url("img/snow-check.png");
-//     snow = 1;
-// }
-// console.log(rain);
-
-// let girlgirl=document.querySelector("#girl");
-
-// console.log($(girlgirl).prop('checked'));
 function sunnyClick(){
-    document.querySelector(".sunny-img").style.content="url(img/sunny-check.png)";
+    // if (sunnyImg==="url(img/sunny-uncheck.png)"){
+    //     sunnyImg="url(img/sunny-check.png)";
+    // }
+    // else{
+    //     sunnyImg="url(img/sunny-uncheck.png)";
+    // }
+    document.querySelector(".sunny-img").style.content.classList.toggle("sunnyclicked");
 }
 function cloudyClick(){
     document.querySelector(".cloudy-img").style.content="url(img/cloudy-check.png)";
@@ -116,3 +83,4 @@ function printName()  {
 function replay(){
     location.reload();
 }
+
