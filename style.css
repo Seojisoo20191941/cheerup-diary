@@ -34,7 +34,7 @@ section{
     /* padding: 2vh; */
     font-family: 'SangSangShinb7';
     font-size: 30px;
-    width: 50vh;
+    width: 40vh;
     height: 30px;
     text-align: center;
     background-color: transparent;
@@ -44,7 +44,7 @@ section{
 .button{
     font-family: 'SangSangShinb7';
     border-radius: 100px;
-    width: 50vh;
+    width: 40vh;
     height: 50px;
     margin:0.6vh;
     font-size: 30px;
@@ -72,7 +72,7 @@ section{
     justify-content: center;
 }
 hr{
-    width: 50vh;
+    width: 40vh;
     border-width: 1px 0px 0px 0px;
     height: 1px;
 }
@@ -96,24 +96,23 @@ label{
 .weather-img{
     display: flex;
     justify-content: center;
-    height: 15vh;
 }
 .sunny-img{
     content: url(img/sunny-uncheck.png);
-    width: 14vh;
+    width: 12vh;
 
 }
 .cloudy-img{
     content: url(img/cloudy-uncheck.png);
-    width: 13vh;
+    width: 11vh;
 }
 .rain-img{
     content: url(img/rain-uncheck.png);
-    width: 13vh;
+    width: 11vh;
 }
 .snow-img{
     content: url(img/snow-uncheck.png);
-    width: 13vh;
+    width: 11vh;
 }
 
 .resultimage{
@@ -142,27 +141,32 @@ label{
 [type=checkbox] + div {
     cursor: pointer;
 }
-[type=checkbox]:checked + div {
+[type=checkbox]:checked + .girl-img {
     width:15vh;
     height:auto;
 }
-[type=checkbox]:checked + .sunny-img{
+[type=checkbox]:checked + .boy-img {
     width:15vh;
+    height:auto;
+}
+
+[type=checkbox]:checked + .sunny-img{
+    width:13vh;
     content: url(img/sunny-check.png);
     height:auto;
 }
 [type=checkbox]:checked + .cloudy-img{
-    width:15vh;
+    width:13vh;
     content: url(img/cloudy-check.png);
     height:auto;
 }
 [type=checkbox]:checked + .rain-img{
-    width:15vh;
+    width:13vh;
     content: url(img/rain-check.png);
     height:auto;
 }
 [type=checkbox]:checked + .snow-img{
-    width:15vh;
+    width:13vh;
     content: url(img/snow-check.png);
     height:auto;
 }
