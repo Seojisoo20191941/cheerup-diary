@@ -100,7 +100,7 @@ label{
     height: 15vh;
 }
 .sunny-img{
-    content: url(img/sunny-check.png);
+    content: url(img/sunny-uncheck.png);
     width: 14vh;
     /* background-image: url(img/sunny-uncheck.png);
     background-size: 14vh 16vh;
@@ -108,15 +108,15 @@ label{
     height: 16vh; */
 }
 .cloudy-img{
-    content: url(img/cloudy-check.png);
+    content: url(img/cloudy-uncheck.png);
     width: 13vh;
 }
 .rain-img{
-    content: url(img/rain-check.png);
+    content: url(img/rain-uncheck.png);
     width: 13vh;
 }
 .snow-img{
-    content: url(img/snow-check.png);
+    content: url(img/snow-uncheck.png);
     width: 13vh;
 }
 

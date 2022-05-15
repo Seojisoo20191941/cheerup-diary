@@ -36,6 +36,21 @@
 // }
 // console.log(rain);
 
+// let girlgirl=document.querySelector("#girl");
+
+// console.log($(girlgirl).prop('checked'));
+function sunnyClick(){
+    document.querySelector(".sunny-img").style.content="url(img/sunny-check.png)";
+}
+function cloudyClick(){
+    document.querySelector(".cloudy-img").style.content="url(img/cloudy-check.png)";
+}
+function rainClick(){
+    document.querySelector(".rain-img").style.content="url(img/rain-check.png)";
+}
+function snowClick(){
+    document.querySelector(".snow-img").style.content="url(img/snow-check.png)";
+}
 
 function printName()  {
     let date = document.querySelector('#date').value;
