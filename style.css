@@ -117,7 +117,7 @@ label{
 }
 
 .resultimage{
-    width:50vh;
+    width:40vh;
 }
 #resultdate{
     font-family: 'SangSangShinb7';
@@ -127,7 +127,7 @@ label{
 #resultname{
     font-family: 'SangSangShinb7';
     color: #D86A66;
-    font-size: 50px;
+    font-size: 60px;
 }
 #comment{
     font-family: 'SangSangShinb7';

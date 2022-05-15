@@ -41,18 +41,21 @@
 
     <div class="resultpage">
         <div>
+            <h1>응원일기</h1>
             <hr>
             <div id="resultdate"></div> 
             <hr>
-        </div>
-        <input type="image" class="resultimage" id="resultimage" src="">
-        <div>
+       
+        <input type="image" class="resultimage" id="resultimage">
+        
             <div id="resultname"></div>
             <div id="comment"></div>
             <br>
         </div>
         <div class="buttons">
             <form>
+                <a><input type="text" value="사진 저장" class="button white" onclick="save()"/></a>
+                <br>
                 <a><input type="text" value="다시 응원하기" class="button pink" onclick="replay()"/></a>
             </form>
         </div>
