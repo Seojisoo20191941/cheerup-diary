@@ -6,7 +6,9 @@
 
 - to do list
   - fix image size
+  - fix font size
   - ~~fix weather image color checked/unchecked~~
+  - fix weather image color to gray checked->unchecked
   - result comments margin
   - draw more images(4)
   - image radom showing 
@@ -15,4 +17,7 @@
   - alert comments when too much value
   - save image feature
   - show weather beside date
+  - responsive, especially height
+  - fix input date part(only for phone size)
+  
   
