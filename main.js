@@ -20,11 +20,11 @@ function printName()  {
 
 
     //null
-    if (date===null){
+    if (date===""){
         alert("날짜를 선택해주세요!");
         location.reload();
     }
-    if (myname===null){
+    if (myname===""){
         alert("이름을 작성주세요!");    
         location.reload();
 
