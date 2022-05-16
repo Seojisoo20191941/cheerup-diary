@@ -20,6 +20,7 @@ function printName()  {
 
     console.log(girlCheck);
 
+    //
     // girl
     if (girlCheck){
         if (sunnyCheck){

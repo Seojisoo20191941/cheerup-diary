@@ -26,16 +26,17 @@ h2{
 p{
     font-family: 'SangSangShinb7';
     font-size: 30px;
+    margin: 0.3em;
 }
 section{
     margin: 2vh;
 }
 .date{
-    /* padding: 2vh; */
     font-family: 'SangSangShinb7';
+    color:black;
     font-size: 30px;
     width: 40vh;
-    height: 30px;
+    height: 4vh;
     text-align: center;
     background-color: transparent;
     border:transparent;
@@ -44,8 +45,8 @@ section{
 .button{
     font-family: 'SangSangShinb7';
     border-radius: 100px;
-    width: 40vh;
-    height: 50px;
+    width: 35vh;
+    height: 6vh;
     margin:0.6vh;
     font-size: 30px;
 }
@@ -64,21 +65,19 @@ section{
 .startpage{
     /* display:flex; justify-content: center; align-items: center; */
     display: block;
+    text-align: center;
 
 }
 .resultpage{
     display:none;
     /* margin-top: 75px; */
     justify-content: center;
+
 }
 hr{
     width: 40vh;
     border-width: 1px 0px 0px 0px;
     height: 1px;
-}
-label{
-    width: 15vh;
-    height: 15vh;
 }
 .gender-img{
     display: flex;
@@ -169,4 +168,12 @@ label{
     width:13vh;
     content: url(img/snow-check.png);
     height:auto;
+}
+.gender-box{
+    width:15vh;
+    height: 15vh;
+}
+.weather-box{
+    width:13vh;
+    height: 13vh;
 }
