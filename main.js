@@ -18,9 +18,53 @@ function printName()  {
     let rainCheck=document.querySelector("#rain").checked;
     let snowCheck=document.querySelector("#snow").checked;
 
-    console.log(girlCheck);
 
-    //
+    //null
+    if (date===null){
+        alert("날짜를 선택해주세요!");
+        location.reload();
+    }
+    if (myname===null){
+        alert("이름을 작성주세요!");    
+        location.reload();
+
+    }
+    if (girlCheck===false && boyCheck===false){
+        alert("성별을 선택해주세요!");
+        location.reload();
+
+    }
+    if (girlCheck===true && boyCheck===true){
+        alert("성별을 하나만 선택해주세요!");
+        location.reload();
+
+    }
+    let check=0;
+    if (sunnyCheck===true){
+        check++;
+    }
+    if (cloudyCheck===true){
+        check++;
+    }
+    if (rainCheck===true){
+        check++;
+    }
+    if (snowCheck===true){
+        check++;
+    }
+
+    if (check===0){
+        alert("날씨를 선택해주세요!");
+        location.reload();
+
+    }
+    else if (check>1){
+        alert("날씨를 하나만 선택해주세요!");
+        location.reload();
+
+    }
+
+
     // girl
     if (girlCheck){
         if (sunnyCheck){
