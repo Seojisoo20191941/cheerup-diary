@@ -115,7 +115,7 @@ hr{
 }
 
 .resultimage{
-    width:40vh;
+    width:35vh;
 }
 #resultdate{
     font-family: 'SangSangShinb7';
@@ -130,6 +130,7 @@ hr{
 #comment{
     font-family: 'SangSangShinb7';
     font-size: 40px;
+    margin: -2vh;
 }
 [type=checkbox] { 
     position: absolute;
