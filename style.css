@@ -129,8 +129,9 @@ hr{
 }
 #comment{
     font-family: 'SangSangShinb7';
-    font-size: 40px;
-    margin: -2vh;
+    font-size: 35px;
+    margin-top: -2vh;
+    margin-bottom: -1vh;
 }
 [type=checkbox] { 
     position: absolute;
