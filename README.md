@@ -9,12 +9,13 @@
   - ~~fix font size~~
   - ~~fix weather image color checked/unchecked~~
   - ~~fix weather image color to gray checked->unchecked~~
-  - result comments margin
+  - ~~result comments margin~~
   - draw more images(4)
   - image radom showing 
   - fix comments
-  - alert comments when value is null
-  - alert comments when too much value
+  - ~~alert comments when value is null~~
+  - alert comments when date in null
+  - ~~alert comments when too much value~~
   - save image feature
   - show weather beside date
   - responsive, especially height
