@@ -108,4 +108,3 @@ function printName()  {
 function replay(){
     location.reload();
 }
-

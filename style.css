@@ -49,6 +49,7 @@ section{
     height: 6vh;
     margin:0.6vh;
     font-size: 30px;
+    cursor:pointer;
 }
 .white{
     background-color: white;
@@ -129,7 +130,7 @@ hr{
 }
 #comment{
     font-family: 'SangSangShinb7';
-    font-size: 35px;
+    font-size: 30px;
     margin-top: -2vh;
     margin-bottom: -1vh;
 }
