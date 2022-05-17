@@ -134,6 +134,11 @@ hr{
     margin-top: -1vh;
     margin-bottom: -1vh;
 }
+#capture{
+    background-color: antiquewhite;
+    width:43vh;
+    display: inline-block;
+}
 [type=checkbox] { 
     position: absolute;
     opacity: 0;
