@@ -108,3 +108,44 @@ function printName()  {
 function replay(){
     location.reload();
 }
+
+$(function(){
+    $("#shot").on("click", function(){
+        console.log("ok");
+        // 캡쳐 라이브러리를 통해서 canvas 오브젝트를 받고 이미지 파일로 리턴한다.
+            html2canvas(document.querySelector("#capture")).then(canvas => {
+            saveAs(canvas.toDataURL('image/png'),"capture-test.png");
+        });
+    });
+    function saveAs(uri, filename) {
+    // 캡쳐된 파일을 이미지 파일로 내보낸다.
+    var link = document.createElement('a');
+    if (typeof link.download === 'string') {
+        link.href = uri;
+        link.download = filename;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    } else {
+        window.open(uri);
+    }
+    }
+});
+
+
+// //이미지(png)로 다운로드
+// function PrintDiv(div){
+// 	div = div[0]
+// 	html2canvas(div).then(function(canvas){
+// 		var myImage = canvas.toDataURL();
+// 		downloadURI(myImage, "저장이미지이름.png") 
+// 	});
+// }
+
+// function downloadURI(uri, name){
+// 	var link = document.createElement("a")
+// 	link.download = name;
+// 	link.href = uri;
+// 	document.body.appendChild(link);
+// 	link.click();
+// }

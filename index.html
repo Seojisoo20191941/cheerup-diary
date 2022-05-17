@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CheerupDiary</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+
 </head>
 <body>
     <div class="startpage">
@@ -41,28 +44,27 @@
     </div>
 
     <div class="resultpage">
-        <div>
+        <div id="capture" style="background-color: antiquewhite;">
             <h1>응원일기</h1>
             <hr>
             <div id="resultdate"></div> 
             <hr>
-       
-            <input type="image" class="resultimage" id="resultimage">
-        
+            <!-- <input type="image" class="resultimage" id="resultimage"></input> -->
+            <div type="image" class="resultimage" id="resultimage"></div>
             <div id="resultname"></div>
             <div id="comment"></div>
             <br>
         </div>
-        
+
         <div class="buttons">
             <form>
-                <a><input type="text" value="사진 저장" class="button white" onclick="save()"/></a>
+                <a><input type="text" value="사진 저장" class="button white" id="shot"/></a>
                 <br>
                 <a><input type="text" value="다시 응원하기" class="button pink" onclick="replay()"/></a>
             </form>
         </div>
     </div>
     <script src="main.js"></script>
-
+<!-- <script src="html2canvas.js"></script> -->
 </body>
 </html>
