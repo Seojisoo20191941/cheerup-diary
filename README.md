@@ -16,9 +16,9 @@
   - ~~alert comments when value is null~~
   - ~~alert comments when date in null~~
   - ~~alert comments when too much value~~
-  - save image feature
+  - ~~save image feature
   - show weather beside date
-  - responsive, especially height
+  - ~~responsive, especially height
   - fix input date part(only for phone size)
   
   
