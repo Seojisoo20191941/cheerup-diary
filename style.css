@@ -66,14 +66,13 @@ section{
 }
 .startpage{
     /* display:flex; justify-content: center; align-items: center; */
-    display: block;
-    text-align: center;
+    display: inline-block;
 
 }
 .resultpage{
     display:none;
     /* margin-top: 75px; */
-    justify-content: center;
+    /* justify-content: center; */
 
 }
 hr{
@@ -97,6 +96,7 @@ hr{
 .weather-img{
     display: flex;
     justify-content: center;
+    
 }
 .sunny-img{
     content: url(img/sunny-uncheck.png);

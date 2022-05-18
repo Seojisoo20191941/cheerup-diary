@@ -6,7 +6,7 @@ function printName()  {
     console.log(myname);
     console.log(date);    
     document.querySelector(".startpage").style.display="none";
-    document.querySelector(".resultpage").style.display="block";
+    document.querySelector(".resultpage").style.display="inline-block";
 
     document.querySelector("#resultdate").innerHTML=date;
     document.querySelector("#resultname").innerHTML=myname +"!";
