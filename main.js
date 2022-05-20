@@ -125,8 +125,8 @@ $(function(){
             saveAs(canvas.toDataURL('image/png'),"cheerup-diary.png");
         });
     });
+        // 캡쳐된 파일을 이미지 파일로 내보낸다.
     function saveAs(uri, filename) {
-    // 캡쳐된 파일을 이미지 파일로 내보낸다.
     let link = document.createElement('a');
     if (typeof link.download === 'string') {
         link.href = uri;
