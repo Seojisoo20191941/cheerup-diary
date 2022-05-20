@@ -17,7 +17,7 @@
   - ~~alert comments when date in null~~
   - ~~alert comments when too much value~~
   - ~~save image feature~~
-  - show weather beside date
+  - ~~show weather beside date~~
   - ~~responsive, especially height~~
   - fix input date part(only for phone size)
   - img capture phone version?
