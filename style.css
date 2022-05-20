@@ -75,6 +75,10 @@ section{
     /* justify-content: center; */
 
 }
+#resultweather{
+    width:5vh;
+    padding-left: 15vh;
+}
 hr{
     width: 40vh;
     border-width: 1px 0px 0px 0px;
