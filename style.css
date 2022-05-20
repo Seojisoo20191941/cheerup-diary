@@ -190,3 +190,7 @@ hr{
     width:13vh;
     height: 13vh;
 }
+a{
+    color:gray;
+    font-size:12px;
+}

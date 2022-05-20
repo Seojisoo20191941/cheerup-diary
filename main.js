@@ -128,7 +128,7 @@ $(function(){
     });
     function saveAs(uri, filename) {
     // 캡쳐된 파일을 이미지 파일로 내보낸다.
-    var link = document.createElement('a');
+    let link = document.createElement('a');
     if (typeof link.download === 'string') {
         link.href = uri;
         link.download = filename;
