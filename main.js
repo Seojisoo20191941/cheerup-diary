@@ -123,7 +123,6 @@ $(function(){
         // 캡쳐 라이브러리를 통해서 canvas 오브젝트를 받고 이미지 파일로 리턴한다.
             html2canvas(document.querySelector("#capture")).then(canvas => {
             saveAs(canvas.toDataURL('image/png'),"cheerup-diary.png");
-            alert("사진을 저장했습니다");
         });
     });
     function saveAs(uri, filename) {
@@ -135,6 +134,8 @@ $(function(){
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
+        alert("사진을 저장했습니다");
+
     } else {
         window.open(uri);
     }
