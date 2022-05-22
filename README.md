@@ -1,8 +1,22 @@
 # cheerup-diary
+
 꼬마가 전하는, 오늘 하루 당신을 위한 응원일기
 
-👇 like this
-![image](https://user-images.githubusercontent.com/76681519/167706191-c0d569e1-9faf-49f8-8df5-df9917b6a9eb.png)
+# like this👇👇
+
+그림1.png
+
+# link
+
+🌷 [URL] (https://seojisoo20191941.github.io/cheerup-diary/)\
+
+# made by
+
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/Seojisoo20191941"><img src="https://avatars.githubusercontent.com/u/76681519?v=4?s=100" width="100px;" alt=""/><br /><sub><b>jisoo</b></sub></a><br />기획, 디자인, 개발</td>
+  </tr>
+</table>
 
 - to do list
   - ~~fix image size~~
@@ -11,8 +25,8 @@
   - ~~fix weather image color to gray checked->unchecked~~
   - ~~result comments margin~~
   - draw more images(4)
-  - image radom showing 
-  - fix comments
+  - image radom showing
+  - ~~fix comments~~
   - ~~alert comments when value is null~~
   - ~~alert comments when date in null~~
   - ~~alert comments when too much value~~
@@ -21,5 +35,3 @@
   - ~~responsive, especially height~~
   - fix input date part(only for phone size)
   - img capture phone version?
-  
-  
