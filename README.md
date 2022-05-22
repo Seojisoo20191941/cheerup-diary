@@ -9,7 +9,7 @@
 
 # link
 
-🌷 [ URL ] (https://seojisoo20191941.github.io/cheerup-diary/)
+🌷 [ URL ] (http://seojisoo20191941.github.io/cheerup-diary/)
 
 # made by
 
