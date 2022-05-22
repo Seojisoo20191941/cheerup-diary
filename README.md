@@ -4,11 +4,12 @@
 
 # like this👇👇
 
-그림1.png
+![그림1](https://user-images.githubusercontent.com/76681519/169709871-80003e5b-3d75-4d8c-a15e-b675e5ee4d70.png)
+
 
 # link
 
-🌷 [URL] (https://seojisoo20191941.github.io/cheerup-diary)\
+🌷 [URL] (https://seojisoo20191941.github.io/cheerup-diary/)
 
 # made by
 
